@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo TypeScript App</title>
+    <!-- font-awesome cdn: -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- css link: -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Todo App</header>
+      <div class="inputField">
+        <input type="text" class="todo-value" placeholder="Add your new todo" />
+        <button class="add-todo"><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todoList">
+        <!-- data are comes from local storage -->
+      </ul>
+      <div class="footer">
+        <span>You have <span class="pendingTasks"></span> pending tasks</span>
+        <button type="button" class="clear-todos">Clear All</button>
+      </div>
+    </div>
+    <!-- js link: -->
+    <script src="./dist/todolist.js"></script>
+  </body>
+</html>
