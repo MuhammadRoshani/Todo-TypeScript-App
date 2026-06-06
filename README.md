@@ -7,7 +7,7 @@ This project demonstrates DOM manipulation, state management, and LocalStorage u
 
 ## 🚀 Live Demo
 
-👉 Live Preview: **[Your Vercel Link Here]**
+👉 Live Preview: **[https://todo-type-script-app.vercel.app]**
 
 ---
 
